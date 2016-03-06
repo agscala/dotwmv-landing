@@ -417,6 +417,7 @@ h1 {
 }
 
 #facebook-button,
+#youtube-button,
 #twitter-button {
 	display: table-cell;
 	vertical-align: middle;
@@ -435,6 +436,7 @@ h1 {
 }
 
 #facebook-button .social-button-subtext,
+#youtube-button .social-button-subtext,
 #twitter-button .social-button-subtext {
 	font-size: 24px;
 	margin-bottom: 20px;
@@ -448,6 +450,14 @@ h1 {
 
 #facebook-button {
 	background-color: #3B5998;
+}
+
+#youtube-button {
+	background-color: #E64A41;
+}
+
+#youtube-button img {
+    height: 65px;
 }
 
 #contact-us-wrapper {

@@ -76,27 +76,6 @@ def congratulations(handle):
 	else:
 		return redirect("/")
 
-@route('/feedback', method="POST")
-def send_feedback():
-	user = "noreply@vgtourney.com"
-	password = "VGTourney2000"
-
-	receivers = ['justen@vgtourney.com', 'andrew@vgtourney.com']
-	topic = 'Feedback - ' + request.forms.get('topic')
-	email = request.forms.get('email') or "Anonymous"
-	message = request.forms.get('message') + "\n\nSent by " + email
-
-	content = text(message)
-	content['Subject'] = topic
-
-	smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
-	smtpObj.starttls()
-	smtpObj.login(user, password)
-
-	smtpObj.sendmail(user, receivers, content.as_string())
-	smtpObj.quit()
-	return "success"
-
 
 print __file__
 try:
