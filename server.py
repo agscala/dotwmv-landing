@@ -84,7 +84,7 @@ except IndexError:
 	mode = "production"
 
 if mode == "dev":
-	run(host='0.0.0.0', port=9000, reloader=True)
+	run(host='0.0.0.0', port=7000, reloader=True)
 else:
 	run(host='0.0.0.0', port=80)
 
