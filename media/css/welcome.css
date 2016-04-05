@@ -1,3 +1,8 @@
+@font-face {
+    font-family: NintendoDS;
+    src: url("/media/fonts/ds.ttf");
+}
+
 input[type="text"],
 input[type="password"],
 input[type="search"],
@@ -13,8 +18,11 @@ select {
 }
 
 body {
+    font-family: NintendoDS;
 	background-color: #FFF;
-	background: url('/media/img/shattered.png');
+	background: url('/media/img/sunrise.jpg');
+    background-size: cover;
+    height: 100vh;
 }
 
 #top-section-header {
@@ -223,7 +231,6 @@ h1 {
 	margin-bottom: 20px;
 	text-align: center;
 	color: white;
-	font-style: italic;
 	clear: both;
 }
 
@@ -438,9 +445,8 @@ h1 {
 #facebook-button .social-button-subtext,
 #youtube-button .social-button-subtext,
 #twitter-button .social-button-subtext {
-	font-size: 24px;
+	font-size: 32px;
 	margin-bottom: 20px;
-	font-style: italic;
 	font-weight: normal;
 }
 
@@ -461,32 +467,30 @@ h1 {
 }
 
 #contact-us-wrapper {
+    position: fixed;
+    bottom: 0;
 	padding: 20px 0;
-	background-color: #FFF;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.feedback-front,
-.feedback-back {
+.logo {
+    font-family: NintendoDS;
+    font-size: 20em;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
 }
 
-#feedback-card-wrapper {
-	height: 200px;
-}
-
-#feedback-card .front,
-#feedback-card .back {
-	padding: 10px;
-}
-
-#feedback-card .front {
-	height: 150px;
-}
-
-#feedback-card .back {
-	height: 200px;
-	text-align: center;
+.footer {
+    font-size: 24px;
+    padding-top: 10px;
 }
 
 #footer-love {
 	text-align: right;
+}
+
+#footer-love, #copyright {
+    color: white;
 }
