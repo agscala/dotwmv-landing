@@ -20,9 +20,15 @@ select {
 body {
     font-family: NintendoDS;
 	background-color: #FFF;
-	background: url('/media/img/sunrise.jpg');
+	background: url('/media/img/background.gif');
     background-size: cover;
-    height: 100vh;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
 }
 
 #top-section-header {
@@ -467,11 +473,7 @@ h1 {
 }
 
 #contact-us-wrapper {
-    position: fixed;
-    bottom: 0;
 	padding: 20px 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .logo {

@@ -1,0 +1,78 @@
+@font-face {
+    font-family: NintendoDS;
+    src: url('/media/fonts/Nintendo-DS-BIOS.eot?#iefix') format('embedded-opentype'),  url('/media/fonts/Nintendo-DS-BIOS.woff') format('woff'), url('/media/fonts/Nintendo-DS-BIOS.ttf')  format('truetype'), url('/media/fonts/Nintendo-DS-BIOS.svg#Nintendo-DS-BIOS') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 700px) and (min-height: 650px) {
+    html {
+        font-size: 150%;
+    }
+}
+
+a {
+    color: #EEE;
+}
+a:hover {
+    color: #EEE;
+}
+a:focus {
+    color: #EEE;
+}
+
+body {
+    font-family: NintendoDS, sans-serif;
+    color: #EEE;
+    background-color: #0f0f0f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background-image: url("/media/img/background.gif");
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-title {
+    font-size: 7em;
+    text-align: center;
+    margin: 0.5em 0 0.6em 0;
+}
+
+.links {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 1em;
+}
+
+.links .message {
+    font-size: 2em;
+    margin-bottom: 1.2em;
+}
+
+.links .message img {
+    max-height: 1em;
+    vertical-align: sub;
+    margin-right: 0.1em;
+    margin-left: -0.15em;
+}
+
+.links .link {
+    display: inline-block;
+    width: 2em;
+    margin: 0 0.2em;
+    font-size: 3em;
+    padding: 0.4em 0;
+}

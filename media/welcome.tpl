@@ -9,7 +9,7 @@
     </div>
 
     <div class="large-4 columns social-media">
-        <a id="twitter-button" href="http://twitter.com/vgtourney">
+        <a id="twitter-button" href="http://twitter.com/dotdotwmv">
             <div class="social-button-subtext">Follow</div>
             <i class="icon-twitter"></i>
         </a>
@@ -20,12 +20,12 @@
             <i class="icon-facebook"></i>
         </a>
     </div>
-    <div class="large-4 columns social-media">
+    <!--<div class="large-4 columns social-media">
         <a id="youtube-button" href="http://www.facebook.com/pages/VGTourney/158077434234894">
             <div class="social-button-subtext">Subscribe</div>
             <img src="/media/img/youtube.png" />
         </a>
-    </div>
+    </div>-->
 
     <div class="large-12 columns footer">
         <div class="row">
