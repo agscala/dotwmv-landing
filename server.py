@@ -12,7 +12,7 @@ cursor = conn.cursor()
 
 @route('/')
 def main():
-	return template("media/welcome.tpl",
+	return template("media/dotwmv.html",
 		handle="",
 		email="",
 		handle_error=None,
